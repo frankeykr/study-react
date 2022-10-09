@@ -4,6 +4,10 @@ import { Footer } from '../components/Footer'
 import { Links } from '../components/Links'
 import { Headline } from '../components/Headline'
 
+// ファイルシステムルーティングを機能させるには
+// Next.jsのpages配下のものは
+// export defaultにする必要がある
+
 export default function Home() {
   return (
     <div className={styles.container}>
